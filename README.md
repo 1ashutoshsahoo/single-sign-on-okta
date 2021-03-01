@@ -1,14 +1,23 @@
 # Single Sign On (SSO) Example with OAuth2, Okta and Spring Boot
 
-
 ## What you'll need
-- JDK 1.8
-- Maven 3.5.2
+
+- Okta SSO developer account - [Try here](https://www.okta.com/free-trial/)
+- JDK 11
+- Gradle
 
 ## Stack
+
 - Java
 - Spring Boot
+- Thymeleaf
+- Bootstrap CSS
 - [Okta](https://www.okta.com)
 
+## Setup
+
+- Update `application.yml` file with right parameter values from okta developer account.
+
 ## Run
-- Run Application : `mvn spring-boot:run`
+
+- Run Application : `gradle bootRun`
